@@ -1,7 +1,7 @@
 {
-  "name": "subql01",
+  "name": "darwinia-nft-subql",
   "version": "0.0.4",
-  "description": "This project can be use as a starting po...",
+  "description": "Darwinia Plo NFT claim address remark",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
@@ -9,14 +9,14 @@
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
-  "homepage": "https://github.com/subquery/subql-starter",
-  "repository": "github:subquery/subql-starter",
+  "homepage": "https://github.com/darwinia-network/darwinia-nft-subql",
+  "repository": "https://github.com/darwinia-network/darwinia-nft-subql.git",
   "files": [
     "dist",
     "schema.graphql",
     "project.yaml"
   ],
-  "author": "Ian He & Jay Ji",
+  "author": "Darwinia Network",
   "license": "MIT",
   "devDependencies": {
     "@polkadot/api": "^7",
